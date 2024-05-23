@@ -8,7 +8,7 @@ variable "aws_region" {
 variable "instance_ami" {
   description = "AMI to be used for the instance"
   type        = string
-  default     = "ami-00714f4f0022eff41"  # Amazon Linux 2 AMI
+  default     = "ami-00714f4f0022eff41" # Amazon Linux 2 AMI
 }
 
 variable "instance_type" {
