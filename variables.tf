@@ -2,7 +2,7 @@
 variable "aws_region" {
   description = "The AWS region to create resources in"
   type        = string
-  default     = "eu-south-2"
+  default     = "eu-south-2" # Región de España
 }
 
 variable "instance_ami" {
